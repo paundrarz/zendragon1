@@ -1,0 +1,747 @@
+@font-face{
+    font-family: 'inknut';
+    src: url(../asset/InknutAntiqua-Bold.ttf)format('truetype');
+  }
+  *,
+  html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000000;
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* background-color: #092038; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    height: 20 dvh;
+    z-index: 100;
+  }
+  
+  nav:hover{
+    background-color: #092038;
+    transition: all 0.5s ease;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  nav div img {
+    width: 80px;
+    justify-content: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-family: 'inknut',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+  }
+  nav ul #login:hover{
+    border: 3px solid #af8a54;
+    border-spacing: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    color: #cc7c05;
+    transition: all;
+  }
+  
+  nav ul #sign-up a{
+    color: #092038;
+  }
+  nav ul #sign-up {
+    border: 1.5px solid #ffffff;
+    border-radius: 20px;
+    background-color: #EAB970;
+    width: 100px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+  }
+  
+  nav ul #sign-up:hover{
+    border: 3px solid #ffffff;
+    border-spacing: 30px;
+    border-radius: 20px;
+    background-color: #C69956;
+    width: 100px;
+    height: 40px;
+    transition: all;
+  }
+  
+  nav ul li a:hover {
+    color: #EAB970;
+    border-bottom: 1px solid #EAB970;
+  }
+  
+  .menu-icon {
+    width: 40px;
+    display: none;
+    margin: 3vw;
+  }
+
+main {
+    padding-top: 0rem;
+}
+
+.container1{
+    background-image: url(/asset/back_naga_atas_judul.webp);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    /* border: 12px solid black; */
+}
+.container1 h1{
+    color: #EAB970;
+}
+
+
+.scroll{
+    /* border: solid yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    /* top: 30%; */
+    align-items: end;
+    height: 45vh;
+}
+
+.scroll:hover{
+    cursor: pointer;
+}
+
+#mask:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(212, 163, 0));
+    /* backdrop-filter: blur(15px) saturate(3); */
+}
+#maskparent {
+    background-repeat: no-repeat;
+    background-image: url("/mask.png");
+}
+
+.text-element{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.h3-dragon{
+    text-align: center;
+    color: white;
+    /* border: solid green; */
+    height: 45vh;
+    display: flex;justify-content: end;align-items: center;flex-direction: column;
+}
+
+.element{
+    padding: 130px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: black; */
+    background-image: url(../asset/back_element.webp);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.gambar-element:hover{
+    cursor: pointer;
+}
+
+.grid1{
+    display: flex;
+    gap: 200px;
+}
+
+.h1-element{
+    text-align: center;
+    color: #EAB970;
+    font-family: 'inknut';
+}
+
+.img-desc{
+    width: 10%;
+}
+
+.h3-element{
+    text-align: center;
+    color: white;
+}
+
+.logo-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    gap: 40px;
+}
+.grid-desc{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+    height: 100vh;
+}
+.h1-desc{
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+
+.h1-ourdragon{
+    color:#EAB970;
+    text-align: center;
+    font-family: 'inknut';
+}
+
+.grid1-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 70px;
+    width: 60vw;
+    max-width: 60vw;
+}
+
+.grid2{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+
+}
+
+.char{
+    scroll-behavior: smooth;
+}
+.h1-judul{
+    font-family: 'inknut';
+    text-align: center;
+    color: #EAB970;
+    border: 1px solid red;
+}
+
+.h1-desc{
+    font-family: 'inknut';
+    text-align: center;
+    color: #EAB970;
+}
+
+.h3-desc{
+    color: white;
+}
+
+.scroll-img{
+    /* border: solid red; */
+    width: 15%;
+    height: 10vh;
+}
+
+.img-char-desc{
+    width: 45vw;
+    max-width: 42vw;
+}
+
+#desc0{
+    background-image: url(../asset/Water_Dragon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desc1{
+    background-image: url(../asset/fire_dragon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desc2{
+    background-image: url(../asset/Earth_Dragon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desc3{
+    background-image: url(../asset/Air_Dragon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desc4{
+    background-image: url(../asset/Aether_Dragon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desc5{
+    background-image: url(../asset/Dark_Dragon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background-color: #092038;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.ul-footer{
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+}
+
+.li-footer{
+    list-style: none;
+}
+
+.a-footer{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.a-footer:hover{
+    text-decoration: underline;
+}
+
+.h1-footer{
+    font-family: 'inknut';
+    color: #EAB970;
+    max-width: 90%;
+    font-size: 20px;
+}
+
+.container-sosmed{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 5%;
+}
+
+.img-sosmed{
+    width: 6%;
+}
+
+
+@media screen and (min-width:540px) and (max-width: 1024px) {
+    nav {
+        flex-wrap: wrap;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        padding-bottom: 0vh;
+        justify-items: center;
+        z-index: 2;
+    }
+
+    nav ul .pembatas{
+        display: none;
+    }
+
+    nav ul{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+    #login{
+        align-content: center;
+        align-items: center;
+    }
+    #login li{
+        margin-bottom: 0.5vw;
+    }
+
+    #sign-up{
+        align-content: center;
+        align-items: center;
+    }
+    #sign-up li{
+        margin-bottom: 0.5vw;
+    }
+    nav ul li{
+        margin-bottom: -2vh;
+    }
+
+    /* nav ul li:last-of-type {
+        padding-bottom: 8px;
+    } */
+
+    nav ul.hidden {
+        display: none;
+    }
+    .logo{
+        margin-bottom: -10px;
+    }
+    .menu-icon {
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul #sign-up {
+        align-content: center;
+        text-align: center;
+    }
+
+    .element{
+        display: flex;
+        padding: 10px;
+    }
+
+    .grid1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-element{
+        width: 100vw;
+    }
+
+    .h1-ourdragon{
+        font-size: 25px;
+    }
+
+    .img-element{
+        width: 50vw;
+        /* max-width/: 20vw; */
+        height: 50vh;
+        align-items: center;
+    }
+    .img-element-logo{
+        width: 12vw;
+        max-height: 12vw;
+    }
+
+    .logo-element{
+        gap: 10px;
+    }
+
+    .h1-element{
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .h3-element{
+        font-size: 20px;
+        max-width: 70vw;
+    }
+
+    .element{
+        padding: 10px;
+    }
+
+    .grid1{
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .h1-judul{
+        font-size: 50px;
+    }
+
+    .scroll-img{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .scroll{
+        width: 30%;
+        max-height: 50%;
+    }
+    .grid-desc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: rgb(255, 0, 0); */
+        padding:10px;
+        height: 90vh;
+        max-height: 107vh;
+    }
+
+    .h1-desc{
+        padding-top:0px;
+        padding-bottom: 0px;
+        font-size: 22px;
+    }
+
+    .h3-desc{
+        font-size: 14px;
+    }
+    
+    .grid1-desc{
+        /* background-color: #af8a54; */
+        padding: 0;
+    }
+
+    .grid2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-char-desc{
+        width: 50vw;
+        max-width: 60vw;
+        padding-top: 0;
+    }
+    
+    .img-desc{
+        width: 20%;
+    }
+    .container1{
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 539px) {
+    nav {
+        background-color: #092038;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        top: 0;
+        padding-bottom: 0vh;
+        justify-items: center;
+      }
+      
+      nav ul .pembatas{
+        display: none;
+      }
+      
+      nav ul{
+        /* border: solid green; */
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 3vh;
+        text-align: center;
+        
+      }
+      #login{
+        align-content: center;
+        align-items: center;
+      }
+      #login li{ 
+        margin-bottom: 0.5vw;
+      }
+      
+      #sign-up{
+        align-content: center;
+        align-items: center;
+      }
+      #sign-up li{
+        margin-bottom: 0.5vw;
+      }
+      nav ul li{
+        margin-bottom: -2vh;
+        text-align: center;
+      }
+      
+      nav ul.hidden {
+        display: none;
+      }
+      .logo img{
+      height: 7vh;
+      max-height: 7vh;
+      /* border: solid red; */
+      align-items: center;
+    }
+    .menu-icon {
+      display: flex;
+      align-items: center;
+      /* border: solid blue; */
+      width: 3vw;
+    }
+    
+    nav ul #sign-up {
+      align-content: center;
+      text-align: center;
+    }
+
+    .element{
+        display: flex;
+        padding: 10px;
+    }
+
+    .grid1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-element{
+        width: 80vw;
+    }
+
+    .h1-ourdragon{
+        font-size: 15px;
+    }
+
+    .img-element{
+        width: 50vw;
+        /* max-width/: 20vw; */
+        height: 50vh;
+        align-items: center;
+    }
+    .img-element-logo{
+        width: 12vw;
+        max-height: 12vw;
+    }
+
+    .logo-element{
+        gap: 10px;
+    }
+
+    .h1-element{
+        font-size: 16.5px;
+        padding: 0;
+    }
+
+    .h3-element{
+        font-size: 12px;
+    }
+
+    .element{
+        padding: 10px;
+    }
+
+    .grid1{
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h1-judul{
+        font-size: 20px;
+    }
+    .h3-dragon{
+        font-size: 13px;
+    }
+
+    .scroll-img{
+        width: 30%;
+    }
+    .grid-desc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: rgb(255, 0, 0); */
+        padding:10px;
+        height: 90vh;
+        max-height: 107vh;
+    }
+
+    .h1-desc{
+        padding-top:0px;
+        padding-bottom: 0px;
+        font-size: 22px;
+    }
+
+    .h3-desc{
+        font-size: 14px;
+    }
+    
+    .grid1-desc{
+        /* background-color: #af8a54; */
+        padding: 0;
+    }
+
+    .grid2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-char-desc{
+        width: 60vw;
+        max-width: 60vw;
+        padding-top: 0;
+    }
+    
+    .img-desc{
+        width: 40%;
+    }
+
+    .container1{
+        height: 100vh;
+    }
+
+    .logo-footer{
+        width: 20%;
+    }
+
+    .ul-footer{
+        display: flex;
+        gap: 2rem;
+        padding: 10px;
+    }
+    
+    .li-footer{
+        list-style: none;
+    }
+    
+    .a-footer{
+        font-size: 15px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .a-footer:hover{
+        text-decoration: underline;
+    }
+    
+    .h1-footer{
+        font-family: 'inknut';
+        color: #EAB970;
+        font-size: 15px;
+    }
+    
+    .container-sosmed{
+        display: flex;
+        gap: 1rem;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-sosmed{
+        width: 10%;
+    }
+
+    footer{
+        width: 100%;
+    }
+}

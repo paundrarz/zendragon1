@@ -1,0 +1,579 @@
+@font-face{
+    font-family: 'inknut';
+    src: url(./asset/InknutAntiqua-Bold.ttf)format('truetype');
+}
+*,
+html {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: #000000;
+}
+
+nav {
+position: absolute;
+top: 0;
+width: 100%;
+/* background-color: #092038; */
+display: flex;
+justify-content: space-between;
+padding: 0rem 1rem;
+height: 20 dvh;
+z-index: 100;
+}
+
+nav:hover{
+background-color: #092038;
+transition: all 0.5s ease;
+}
+nav ul {
+display: flex;
+align-items: center;
+gap: 2rem;
+list-style: none;
+}
+
+nav div img {
+width: 80px;
+justify-content: center;
+}
+
+nav ul li a {
+text-decoration: none;
+font-family: 'inknut',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: #ffffff;
+font-weight: 500;
+padding: 8px 0;
+transition: all;
+transition-duration: 300ms;
+}
+nav ul #login:hover{
+border: 3px solid #af8a54;
+border-spacing: 30px;
+border-radius: 20px;
+background-color: rgb(255, 255, 255);
+width: 100px;
+height: 40px;
+color: #cc7c05;
+transition: all;
+}
+
+nav ul #sign-up a{
+color: #092038;
+}
+nav ul #sign-up {
+border: 1.5px solid #ffffff;
+border-radius: 20px;
+background-color: #EAB970;
+width: 100px;
+height: 40px;
+align-content: center;
+text-align: center;
+}
+
+nav ul #sign-up:hover{
+border: 3px solid #ffffff;
+border-spacing: 30px;
+border-radius: 20px;
+background-color: #C69956;
+width: 100px;
+height: 40px;
+transition: all;
+}
+
+nav ul li a:hover {
+color: #EAB970;
+border-bottom: 1px solid #EAB970;
+}
+
+.menu-icon {
+width: 40px;
+display: none;
+margin: 3vw;
+}
+
+main {
+    background-image: url(/asset/char.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    padding-top: 2rem;
+    background-position: -10px 1px;
+}
+
+.grid-besar{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 25px;
+}
+
+.img-char{
+    width: 19vw;
+}
+
+#mask:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(212, 163, 0));
+    /* backdrop-filter: blur(15px) saturate(3); */
+}
+#maskparent {
+    background-repeat: no-repeat;
+    background-image: url("/mask.png");
+}
+
+.h1-judul{
+    position: relative;
+    top: -50px;
+    width: 100%;
+}
+
+.h1-judul:hover{
+text-shadow: 0px 0px 10px rgba(234, 185, 112, 0.32),
+1px 1px 16px rgba(234, 185, 112, 0.27),
+3px 3px 37px rgba(234, 185, 112, 0.23),
+5px 5px 66px rgba(234, 185, 112, 0.18),
+8px 8px 103px rgba(234, 185, 112, 0.14),
+12px 12px 148px rgba(234, 185, 112, 0.09),
+16px 16px 202px rgba(234, 185, 112, 0.05);
+cursor: pointer;
+
+}
+
+.char:hover{
+    transform: scale(1.07);
+    transition: 0.2s ease-in-out;
+    max-width: 10vw;
+    cursor:pointer;
+}
+
+.grid-desc{
+    border-top: 2px solid #EAB970;
+    box-shadow: 0px -4px 4px rgba(234, 185, 112, 0.14),
+    1px -16px 16px rgba(234, 185, 112, 0.12),
+    3px -37px 37px rgba(234, 185, 112, 0.10),
+    5px -65px 66px rgba(234, 185, 112, 0.08),
+    8px -102px 103px rgba(234, 185, 112, 0.06),
+    12px -147px 148px rgba(234, 185, 112, 0.04),
+    16px -200px 202px rgba(234, 185, 112, 0.02);
+
+    display: flex;
+    width: 100%;
+    /* grid-template-columns: 1.5fr 1fr; */
+    padding: 20px;
+    max-width: 100% ;
+    height: 100vh;
+}
+
+.h1-desc{
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+
+.grid1{
+    text-align: center;
+    padding-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.char{
+    scroll-behavior: smooth;
+}
+.h1-judul{
+    font-family: 'inknut';
+    text-align: center;
+    color: #EAB970;
+}
+
+.h1-desc{
+    color: #EAB970;
+    font-family: 'inknut';
+}
+
+.h3-desc{
+    color: white;
+    font-family: 'inknut';
+    word-spacing: 1px;
+}
+
+.img-char-desc{
+    padding-top: 100px;
+    width: 20vw;
+    max-width: 20vw;
+}
+
+.grid2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#desc3{
+    background-image: url(/asset/archer_page.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desc0{
+    background-image: url(/asset/darya-dubina-dubina-11-final2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desc2{
+    background-image: url(/asset/oliver-beck-int.jpg);
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desc1{
+    background-image: url(../asset/huasen-zhang-553.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-desc{
+    position: relative;
+    top: 50px;
+}
+
+img{
+    -webkit-user-drag: none;
+}
+
+footer{
+    background-color: #092038;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.ul-footer{
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+}
+
+.li-footer{
+    list-style: none;
+}
+
+.a-footer{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.a-footer:hover{
+    text-decoration: underline;
+}
+
+.h1-footer{
+    font-family: 'inknut';
+    color: #EAB970;
+    max-width: 90%;
+    font-size: 20px;
+}
+
+.container-sosmed{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 5%;
+}
+
+.img-sosmed{
+    width: 6%;
+}
+
+@media screen and (min-width:540px) and (max-width: 1024px) {
+    nav {
+        flex-wrap: wrap;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        padding-bottom: 0vh;
+        justify-items: center;
+    }
+    
+    nav ul .pembatas{
+        display: none;
+    }
+    
+    nav ul{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+    #login{
+        align-content: center;
+        align-items: center;
+    }
+    #login li{
+        margin-bottom: 0.5vw;
+    }
+    
+    #sign-up{
+        align-content: center;
+        align-items: center;
+    }
+    #sign-up li{
+        margin-bottom: 0.5vw;
+    }
+    nav ul li{
+        margin-bottom: -2vh;
+    }
+    
+    /* nav ul li:last-of-type {
+        padding-bottom: 8px;
+      } */
+    
+    nav ul.hidden {
+        display: none;
+    }
+    .logo{
+        margin-bottom: -10px;
+    }
+    .menu-icon {
+        display: flex;
+        align-items: center;
+}
+    
+    nav ul #sign-up {
+        align-content: center;
+        text-align: center;
+    }
+
+    main{
+        padding-top: 7rem;
+    }
+
+    .grid-desc{
+        display: block;
+        /* background-color: rgb(255, 0, 0); */
+        padding:10px;
+    }
+
+    .h1-desc{
+        padding-top:30px;
+        padding-bottom: 20px;
+    }
+    
+    .grid1{
+        /* background-color: #af8a54; */
+        padding: 0;
+    }
+
+    .grid2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-char-desc{
+        width: 25vw;
+        padding-top: 0;
+    }
+
+    .char:hover{
+        transform: none;
+        box-shadow: none;
+        border-radius: none;
+    }
+
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 539px) {
+    nav {
+        background-color: #092038;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        top: 0;
+        padding-bottom: 0vh;
+        justify-items: center;
+      }
+      
+      nav ul .pembatas{
+        display: none;
+      }
+      
+      nav ul{
+        /* border: solid green; */
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 3vh;
+        text-align: center;
+        
+      }
+      #login{
+        align-content: center;
+        align-items: center;
+      }
+      #login li{ 
+        margin-bottom: 0.5vw;
+      }
+      
+      #sign-up{
+        align-content: center;
+        align-items: center;
+      }
+      #sign-up li{
+        margin-bottom: 0.5vw;
+      }
+      nav ul li{
+        margin-bottom: -2vh;
+        text-align: center;
+      }
+      
+      nav ul.hidden {
+        display: none;
+      }
+      .logo img{
+      height: 7vh;
+      max-height: 7vh;
+      /* border: solid red; */
+      align-items: center;
+    }
+    .menu-icon {
+      display: flex;
+      align-items: center;
+      /* border: solid blue; */
+      width: 3vw;
+    }
+    
+    nav ul #sign-up {
+      align-content: center;
+      text-align: center;
+    }
+
+    main{
+        padding-top: 7rem;
+        background-repeat: repeat;
+    }
+
+    .h1-judul{
+        padding-top: 2rem;
+        font-size: 20px;
+    }
+
+    .grid-besar{
+        max-height: 75vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-desc{
+        display: flex;
+        flex-direction: column;
+        /* background-color: rgb(255, 0, 0); */
+        padding:10px;
+        height: 90vh;
+        max-height: 107vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h1-desc{
+        padding-top:50px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .h3-desc{
+        font-size: 12px;
+        width: 70%;
+    }
+    
+    .grid1{
+        /* background-color: #af8a54; */
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grid2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-char-desc{
+        width: 40vw;
+        max-width: 60vw;
+        padding-top: 0;
+    }
+
+    .char:hover{
+        transform: none;
+        box-shadow: none;
+        border-radius: none;
+    }
+
+    .logo-footer{
+        width: 20%;
+    }
+
+    .ul-footer{
+        display: flex;
+        gap: 2rem;
+        padding: 10px;
+    }
+    
+    .li-footer{
+        list-style: none;
+    }
+    
+    .a-footer{
+        font-size: 15px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .a-footer:hover{
+        text-decoration: underline;
+    }
+    
+    .h1-footer{
+        font-family: 'inknut';
+        color: #EAB970;
+        font-size: 15px;
+    }
+    
+    .container-sosmed{
+        display: flex;
+        gap: 1rem;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-sosmed{
+        width: 10%;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+}
+
