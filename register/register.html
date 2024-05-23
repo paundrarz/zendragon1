@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="apps.js" defer></script>
+    <!-- <link rel="stylesheet" href="/CSS/style.css"> -->
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../asset/logo_navbar.svg" alt="Zen-Dragon-logo" />
+        </div>
+        <div id="menu-icon" class="menu-icon">
+            <img src="../asset/bar.svg">
+        </div>
+        <ul id="menu-list" class="hidden">
+            <li>
+                <a href="/main_page/main_page.html">Home</a>
+            </li>
+            <li>
+                <a href="/class/dragon.html">Class</a>
+            </li>
+            <li>
+                <a href="/character/index.html">Character</a>
+            </li>
+            <li>
+                <a href="/isle/index.html">Isle of Berk</a>
+            </li>
+            <div class="pembatas">
+                <li><a>|</a></li>
+            </div>
+            <div class="sign-up" id="sign-up">
+                <li>
+                <a href="#">Sign up</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Register</h2>
+            <form id="register-form">
+                <label class="title" for="first-name">First name:</label>
+                <input type="text" id="first-name" name="username" placeholder="Input Your First Name" autocomplete="off">
+                
+                <label class="title" for="last-name">Last name:</label>
+                <input type="text" id="last-name" name="username" placeholder="Input Your First Name" autocomplete="off">
+
+                <label class="title" for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Input Email" autocomplete="off">
+
+                <label class="title">Gender:</label>
+                <div>
+                <div>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+                </div>
+                <label class="title" for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Input Your Address" autocomplete="off">
+                
+                <div class="error">
+                    <label id="error-txt" ></label>
+                </div>
+                
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <img src="/asset/logo_footer.svg" alt="" class="logo-footer">
+        <ul class="ul-footer">
+            <li class="li-footer">
+                <a href="" class="a-footer">Home</a>
+            </li>
+            <li class="li-footer">
+                <a href="/class/dragon.html" class="a-footer">Dragon</a>
+            </li>
+            <li class="li-footer">
+                <a href="/character/index.html" class="a-footer">Character</a>
+            </li>
+            <li class="li-footer">
+                <a href="" class="a-footer">Isle of Berk</a>
+            </li>
+        </ul>
+        <h1 class="h1-footer">Follow Zen Dragon Academy</h1>
+        <div class="container-sosmed">
+            <img src="/asset/x.svg" alt="" class="img-sosmed">
+            <img src="/asset/facebook.svg" alt="" class="img-sosmed">
+            <img src="/asset/youtube.svg" alt="" class="img-sosmed">
+            <img src="/asset/instagram.svg" alt="" class="img-sosmed">
+            <img src="/asset/tiktok.svg" alt="" class="img-sosmed">
+        </div>
+    </footer>
+    <script src="apps.js"></script>
+    <script src="/JS/script.js"></script>
+</body>
+</html>

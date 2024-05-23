@@ -1,0 +1,172 @@
+@font-face{
+    font-family: 'inknut';
+    src: url(../asset/InknutAntiqua-Bold.ttf)format('truetype');
+}
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+nav {
+  background-color: #092038;
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  height: 20 dvh;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  
+  list-style: none;
+}
+
+nav div img {
+    width: 80px;
+    justify-content: center;
+    /* background-color: #9a9a9a; */
+}
+
+nav #menu-list{
+    padding-right: 20px;        
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'inknut',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+nav ul #login{
+    border: 1.5px solid #ffffff;
+    border-radius: 20px;
+    /* background-color: chocolate; */
+    width: 100px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+}
+
+nav ul #login a:hover{
+    /* background-color: rebeccapurple; */
+    color: #93631c;
+    
+}
+nav ul #login:hover{
+    border: 3px solid #af8a54;
+    border-spacing: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    color: #93631c;
+}
+
+nav ul #sign-up a{
+    color: #092038;
+}
+nav ul #sign-up {
+    border: 1.5px solid #ffffff;
+    border-radius: 20px;
+    background-color: #EAB970;
+    width: 100px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+}
+
+nav ul #sign-up:hover{
+    border: 3px solid #ffffff;
+    border-spacing: 30px;
+    border-radius: 20px;
+    background-color: #C69956;
+    width: 100px;
+    height: 40px;
+    transition: all;
+}
+
+nav ul li a:hover {
+    color: #EAB970;
+    border-bottom: 1px solid #EAB970;
+}
+
+.menu-icon {
+  /* background-color: tomato; */
+  width: 40px;
+  display: none;
+}
+
+main {
+  padding-top: 7rem;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-bottom: 0vh;
+    justify-items: center;
+  }
+
+  nav ul .pembatas{
+    display: none;
+  }
+
+  nav ul{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 3vh;
+  }
+  #login{
+    align-content: center;
+    align-items: center;
+  }
+  #login li{
+    margin-bottom: 0.5vw;
+  }
+
+  #sign-up{
+    align-content: center;
+    align-items: center;
+  }
+  #sign-up li{
+    margin-bottom: 0.5vw;
+  }
+  nav ul li{
+    margin-bottom: -2vh;
+  }
+
+  /* nav ul li:last-of-type {
+    padding-bottom: 8px;
+  } */
+
+  nav ul.hidden {
+    display: none;
+  }
+.logo{
+    margin-bottom: -10px;
+}
+  .menu-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul #sign-up {
+    align-content: center;
+    text-align: center;
+}
+}

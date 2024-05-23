@@ -1,0 +1,756 @@
+@font-face{
+    font-family: 'inknut';
+    src: url(../asset/InknutAntiqua-Bold.ttf)format('truetype');
+  }
+  *,
+  html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000000;
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* background-color: #092038; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    height: 20 dvh;
+    z-index: 100;
+  }
+  
+  nav:hover{
+    background-color: #092038;
+    transition: all 0.5s ease;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  nav div img {
+    width: 80px;
+    justify-content: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-family: 'inknut',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+  }
+  nav ul #login:hover{
+    border: 3px solid #af8a54;
+    border-spacing: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    color: #cc7c05;
+    transition: all;
+  }
+  
+  nav ul #sign-up a{
+    color: #092038;
+  }
+  nav ul #sign-up {
+    border: 1.5px solid #ffffff;
+    border-radius: 20px;
+    background-color: #EAB970;
+    width: 100px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+  }
+  
+  nav ul #sign-up:hover{
+    border: 3px solid #ffffff;
+    border-spacing: 30px;
+    border-radius: 20px;
+    background-color: #C69956;
+    width: 100px;
+    height: 40px;
+    transition: all;
+  }
+  
+  nav ul li a:hover {
+    color: #EAB970;
+    border-bottom: 1px solid #EAB970;
+  }
+  
+  .menu-icon {
+    width: 40px;
+    display: none;
+    margin: 3vw;
+  }
+
+main {
+  padding-top: 0rem;
+}
+.container1{
+    background-image: url(../asset/back\ welcome.webp);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gambar-garis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.h1-main{
+    color: white;
+    font-family: 'inknut';
+    font-size: 50px;
+}
+
+.img-main{
+    width: 12%;
+}
+
+.h3-main{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.kotak-register{
+    border: 1px solid white;
+    width: 20%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-register{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.a-register:hover{
+    text-decoration: underline;
+}
+
+.container2{
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../asset/back\ welcome\ 2.webp);
+    background-size: cover;
+}
+
+.img-container2{
+    width: 100%;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.h2-page2{
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1-page2{
+    color: white;
+    font-size: 70px;
+    font-family: 'inknut';
+}
+
+.img-page2{
+    width: 70%;
+}
+
+.p-page2{
+    color: white;
+    font-size: 20px;
+    width: 80%;
+    padding: 20px;
+}
+
+.container3{
+    background-image: url(../asset/back\ char\ welcome.webp);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 100vh;
+    width: 100%;
+}
+
+.h1-page3{
+    color: white;
+    font-family: 'inknut';
+    font-size: 50px;
+}
+
+.img-page3{
+    width: 50%;
+    height: 5%;
+}
+
+.img-character{
+    width: 60%;
+    padding-bottom: 30px;
+}
+
+.a-character{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #EAB970;
+    width: 20vw;
+    height: 8vh;
+}
+
+.a-character:hover{
+    text-decoration: underline;
+    transition: 0.5s ease-in-out;
+}
+
+.container4{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-image: url(../asset/bcak\ naga\ 2.webp);
+    background-size: cover;
+}
+
+.h1-page4{
+    color: white;
+    font-family: 'inknut';
+}
+
+.img-page4{
+    width: 50%;
+    height: 5%;
+}
+
+.h3-page4{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    width: 30%;
+    padding-bottom: 40px;
+}
+
+.element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.container5{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10%;
+    background-image: url(../asset/map\ back.webp);
+    background-size: cover;
+}
+
+.container-text5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    /* padding-right: 30px; */
+}
+
+.h2-page5{
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1-page5{
+    color: white;
+    font-size: 70px;
+    font-family: 'inknut';
+}
+
+.img-page5{
+    width: 70%;
+}
+
+.p-page5{
+    color: white;
+    font-size: 20px;
+    width: 80%;
+    padding: 20px;
+    text-align: left;
+}
+
+.a-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    opacity: 80%;
+    border: 5px solid #EAB970;
+    width: 20vw;
+    height: 8vh;
+}
+
+.a-map:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #092038;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.ul-footer{
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+}
+
+.li-footer{
+    list-style: none;
+}
+
+.a-footer{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.a-footer:hover{
+    text-decoration: underline;
+}
+
+.h1-footer{
+    font-family: 'inknut';
+    color: #EAB970;
+    max-width: 90%;
+    font-size: 20px;
+}
+
+.container-sosmed{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 5%;
+}
+
+.img-sosmed{
+    width: 6%;
+}
+
+
+
+@media screen and (min-width:540px) and (max-width: 1024px) {
+    nav {
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-bottom: 0vh;
+    justify-items: center;
+    z-index: 2;
+    }
+
+    nav ul .pembatas{
+    display: none;
+    }
+
+    nav ul{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 3vh;
+    }
+    #login{
+    align-content: center;
+    align-items: center;
+    }
+    #login li{
+    margin-bottom: 0.5vw;
+    }
+
+    #sign-up{
+    align-content: center;
+    align-items: center;
+    }
+    #sign-up li{
+    margin-bottom: 0.5vw;
+    }
+    nav ul li{
+    margin-bottom: -2vh;
+    }
+
+    /* nav ul li:last-of-type {
+    padding-bottom: 8px;
+    } */
+
+    nav ul.hidden {
+    display: none;
+    }
+    .logo{
+    margin-bottom: -10px;
+    }
+    .menu-icon {
+    display: flex;
+    align-items: center;
+    }
+
+    nav ul #sign-up {
+    align-content: center;
+    text-align: center;
+    }
+
+    .h2-page2{
+        font-size: 30px;
+    }
+
+    .h1-page2{
+        font-size: 30px;
+    }
+
+    .container-text{
+        width: 100%;
+    }
+
+    .container2{
+        padding: 30px;
+    }
+
+    .img-container2{
+        width: 50%;
+    }
+
+    .h2-page5{
+        font-size: 40px;
+    }
+
+    .h1-page5{
+        font-size: 30px;
+    }
+
+    .container5{
+        gap: 0;
+    }
+
+    .container-text5 p{
+        text-align: center;
+    }
+
+    .h1-page3{
+        font-size: 40px;
+    }
+
+    .h1-main{
+        font-size: 40px;
+    }
+
+    .h3-page4{
+        font-size: 30px;
+        width: 70%;
+    }
+
+    .img-element{
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 539px) {
+    nav {
+        background-color: #092038;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        top: 0;
+        padding-bottom: 0vh;
+        justify-items: center;
+      }
+      
+      nav ul .pembatas{
+        display: none;
+      }
+      
+      nav ul{
+        /* border: solid green; */
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 3vh;
+        text-align: center;
+        
+      }
+      #login{
+        align-content: center;
+        align-items: center;
+      }
+      #login li{ 
+        margin-bottom: 0.5vw;
+      }
+      
+      #sign-up{
+        align-content: center;
+        align-items: center;
+      }
+      #sign-up li{
+        margin-bottom: 0.5vw;
+      }
+      nav ul li{
+        margin-bottom: -2vh;
+        text-align: center;
+      }
+      
+      nav ul.hidden {
+        display: none;
+      }
+      .logo img{
+      height: 7vh;
+      max-height: 7vh;
+      /* border: solid red; */
+      align-items: center;
+    }
+    .menu-icon {
+      display: flex;
+      align-items: center;
+      /* border: solid blue; */
+      width: 3vw;
+    }
+    
+    nav ul #sign-up {
+      align-content: center;
+      text-align: center;
+    }
+    .h1-main{
+        font-size: 20px;
+    }
+
+    .img-main{
+        width: 20%;
+    }
+
+    .img-garis{
+        width: 20%;
+    }
+
+    .h3-main{
+        font-size: 20px;
+    }
+
+    .a-register{
+        font-size: 20px;
+    }
+
+    .kotak-register{
+        width: 40vw;
+    }
+
+    .container1{
+        height: 100vh;
+    }
+
+    .h2-page2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .h1-page2{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container2{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container-text{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-page2{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img-container2{
+        width: 20%;
+    }
+
+    .container3{
+        height: 50vh;
+    }
+    .container3{
+        justify-content: start;
+    }
+
+    .h1-page3{
+        font-size: 15px;
+    }
+
+    .container-text5{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-character{
+        width: 100%;
+    }
+
+    .a-character{
+        width: 20vw;
+        font-size: 10px;
+        height: 5vh;
+    }
+
+    .h1-page4{
+        font-size: 20px;
+    }
+
+    .h3-page4{
+        font-size: 20px;
+        width: 40vw;
+    }
+
+    .img-element{
+        width: 10%;
+    }
+
+    .element{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container4{
+        height: 80vh;
+        background-image: url(../asset/bcak\ naga\ 2.webp);
+        background-size: cover;
+    }
+
+    .container5{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .img-map{
+        width: 30%;
+    }
+
+    .h2-page5{
+        font-size: 20px;
+    }
+
+    .h1-page5{
+        font-size: 20px;
+    }
+
+    .p-page5{
+        text-align: center;
+    }
+
+    .container1, .container2,.container3,.container4,.container5{
+        width: 100%;
+        padding: 20px;
+    }
+    .logo-footer{
+        width: 20%;
+    }
+
+    .ul-footer{
+        display: flex;
+        gap: 2rem;
+        padding: 10px;
+    }
+    
+    .li-footer{
+        list-style: none;
+    }
+    
+    .a-footer{
+        font-size: 15px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .a-footer:hover{
+        text-decoration: underline;
+    }
+    
+    .h1-footer{
+        font-family: 'inknut';
+        color: #EAB970;
+        font-size: 15px;
+    }
+    
+    .container-sosmed{
+        display: flex;
+        gap: 1rem;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-sosmed{
+        width: 10%;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
