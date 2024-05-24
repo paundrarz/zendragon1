@@ -290,6 +290,58 @@ main{
   margin-bottom: 3vh;
 }
 
+footer{
+    background-color: #092038;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.ul-footer{
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+}
+
+.li-footer{
+    list-style: none;
+}
+
+.a-footer{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.a-footer:hover{
+    text-decoration: underline;
+}
+
+.h1-footer{
+    font-family: 'inknut';
+    color: #EAB970;
+    max-width: 90%;
+    font-size: 20px;
+}
+
+.container-sosmed{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 5%;
+}
+
+.img-sosmed{
+    width: 6%;
+}
+
 @media only screen and (max-width: 1280px) {
   .wrapper{
     justify-content: flex-start;
