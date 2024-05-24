@@ -170,7 +170,6 @@ main {
     justify-content: center;
     align-items: end;
     text-align: right;
-    padding-right: 30px;
 }
 
 .h2-page2{
@@ -677,7 +676,7 @@ footer{
 
     .container4{
         height: 80vh;
-        background-image: url(../asset/bcak\ naga\ 2.webp);
+        background-image: url(../asset/bcak_naga_2.webp);
         background-size: cover;
     }
 
