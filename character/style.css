@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'inknut';
-    src: url(./asset/InknutAntiqua-Bold.ttf)format('truetype');
+    src: url(../asset/InknutAntiqua-Bold.ttf)format('truetype');
 }
 *,
 html {
@@ -96,7 +96,7 @@ margin: 3vw;
 }
 
 main {
-    background-image: url(./asset/char.webp);
+    background-image: url(../asset/char.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
@@ -217,26 +217,26 @@ cursor: pointer;
 }
 
 #desc3{
-    background-image: url(./asset/archer_page.webp);
+    background-image: url(../asset/archer_page.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #desc0{
-    background-image: url(./asset/darya-dubina-dubina-11-final2.jpg);
+    background-image: url(../asset/darya-dubina-dubina-11-final2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #desc2{
-    background-image: url(./asset/oliver-beck-int.jpg);
+    background-image: url(../asset/oliver-beck-int.jpg);
     /* background-color: black; */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #desc1{
-    background-image: url(./asset/huasen-zhang-553.jpg);
+    background-image: url(../asset/huasen-zhang-553.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
