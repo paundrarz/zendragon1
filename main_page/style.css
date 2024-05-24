@@ -581,7 +581,7 @@ footer{
 
     .container1{
         height: 100vh;
-        background-position: contain;
+        background-position: center;
     }
 
     .h1-main{
