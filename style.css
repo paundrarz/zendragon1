@@ -615,6 +615,7 @@ footer{
     .container-text{
         justify-content: center;
         align-items: center;
+        width:100%;
     }
 
     .p-page2{
@@ -676,7 +677,7 @@ footer{
 
     .container4{
         height: 80vh;
-        background-image: url(../asset/bcak_naga_2.webp);
+        background-image: url(./asset/bcak_naga_2.webp);
         background-size: cover;
     }
 
