@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'inknut';
-  src: url(./asset/InknutAntiqua-Bold.ttf)format('truetype');
+  src: url(../asset/InknutAntiqua-Bold.ttf)format('truetype');
 }
 *,
 html {
