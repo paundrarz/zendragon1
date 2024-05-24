@@ -100,8 +100,10 @@ main {
 }
 .container1{
     background-image: url(../asset/back_welcome.webp);
+    background-position: center;
     background-size: cover;
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,10 +154,12 @@ main {
 
 .container2{
     border: 10px solid black;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
     background-image: url(../asset/back_welcome_2.webp);
     background-size: cover;
     padding:20px;
@@ -198,6 +202,7 @@ main {
 
 .container3{
     background-image: url(../asset/back_char_welcome.webp);
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -241,6 +246,8 @@ main {
 }
 
 .container4{
+    background-position: center;
+    width: 100%;
     height: 120vh;
     display: flex;
     justify-content: center;
@@ -278,6 +285,8 @@ main {
 }
 
 .container5{
+    background-position: center;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -673,6 +682,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 10px;
     }
 
     .container4{
