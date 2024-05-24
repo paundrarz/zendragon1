@@ -100,9 +100,10 @@ main {
 }
 .container1{
     background-image: url(./asset/back_welcome.webp);
+    background-position: center;
     background-size: cover;
-    width:100%;
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,11 +154,12 @@ main {
 
 .container2{
     border: 10px solid black;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width:100%;
+    width: 100%;
     background-image: url(./asset/back_welcome_2.webp);
     background-size: cover;
     padding:20px;
@@ -200,6 +202,7 @@ main {
 
 .container3{
     background-image: url(./asset/back_char_welcome.webp);
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -243,8 +246,9 @@ main {
 }
 
 .container4{
+    background-position: center;
+    width: 100%;
     height: 120vh;
-    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,8 +285,9 @@ main {
 }
 
 .container5{
+    background-position: center;
+    width: 100%;
     height: 100vh;
-    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -573,6 +578,12 @@ footer{
       align-content: center;
       text-align: center;
     }
+
+    .container1{
+        height: 50vh;
+        background-position: contain;
+    }
+
     .h1-main{
         font-size: 20px;
     }
@@ -597,17 +608,13 @@ footer{
         width: 40vw;
     }
 
-    .container1{
-        height: 100vh;
-    }
-
     .h2-page2{
-        font-size: 20px;
+        font-size: 10px;
         text-align: center;
     }
 
     .h1-page2{
-        font-size: 20px;
+        font-size: 10px;
         width: 100%;
         text-align: center;
     }
@@ -615,18 +622,19 @@ footer{
     .container2{
         text-align: center;
         flex-direction: column;
+        height: 50vh;
     }
 
     .container-text{
         justify-content: center;
         align-items: center;
-        width:100%;
     }
 
     .p-page2{
         justify-content: center;
         align-items: center;
         text-align: center;
+        font-size: 10px;
     }
 
     .img-container2{
@@ -662,26 +670,30 @@ footer{
     }
 
     .h1-page4{
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .h3-page4{
-        font-size: 20px;
+        font-size: 10px;
         width: 40vw;
+        height:7vh;
     }
 
     .img-element{
-        width: 10%;
+        width: 8%;
     }
 
     .element{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 0px;
+        height: auto;
     }
 
     .container4{
-        height: 80vh;
+        height: 50vh;
+        background-image: url(./asset/bcak_naga_2.webp);
         background-size: cover;
     }
 
@@ -690,6 +702,7 @@ footer{
         justify-content: center;
         align-items: center;
         gap: 1rem;
+        height: 50vh;
     }
 
     .img-map{
@@ -697,15 +710,16 @@ footer{
     }
 
     .h2-page5{
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .h1-page5{
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .p-page5{
         text-align: center;
+        font-size: 10px;
     }
 
     .container1, .container2,.container3,.container4,.container5{
@@ -727,7 +741,7 @@ footer{
     }
     
     .a-footer{
-        font-size: 15px;
+        font-size: 10px;
         text-decoration: none;
         color: #ffffff;
     }
@@ -739,7 +753,7 @@ footer{
     .h1-footer{
         font-family: 'inknut';
         color: #EAB970;
-        font-size: 15px;
+        font-size: 10px;
     }
     
     .container-sosmed{
