@@ -535,4 +535,49 @@ main{
   width: 100%;
   margin-right: 0;
 }
+  .logo-footer{
+        width: 20%;
+    }
+
+    .ul-footer{
+        display: flex;
+        gap: 2rem;
+        padding: 10px;
+    }
+    
+    .li-footer{
+        list-style: none;
+    }
+    
+    .a-footer{
+        font-size: 15px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .a-footer:hover{
+        text-decoration: underline;
+    }
+    
+    .h1-footer{
+        font-family: 'inknut';
+        color: #EAB970;
+        font-size: 15px;
+    }
+    
+    .container-sosmed{
+        display: flex;
+        gap: 1rem;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-sosmed{
+        width: 10%;
+    }
+
+    footer{
+        width: 100%;
+    }
 }
