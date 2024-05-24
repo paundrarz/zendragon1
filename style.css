@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'inknut';
-    src: url(../asset/InknutAntiqua-Bold.ttf)format('truetype');
+    src: url(./asset/InknutAntiqua-Bold.ttf)format('truetype');
   }
   *,
   html {
@@ -99,7 +99,7 @@ main {
   padding-top: 0rem;
 }
 .container1{
-    background-image: url(../asset/back\ welcome.webp);
+    background-image: url(./asset/back_welcome.webp);
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -156,7 +156,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(../asset/back\ welcome\ 2.webp);
+    background-image: url(../asset/back_welcome_2.webp);
     background-size: cover;
 }
 
@@ -197,7 +197,7 @@ main {
 }
 
 .container3{
-    background-image: url(../asset/back\ char\ welcome.webp);
+    background-image: url(../asset/back_char_welcome.webp);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -247,7 +247,7 @@ main {
     align-items: center;
     flex-direction: column;
     padding: 30px;
-    background-image: url(../asset/bcak\ naga\ 2.webp);
+    background-image: url(../asset/bcak_naga_2.webp);
     background-size: cover;
 }
 
@@ -284,7 +284,7 @@ main {
     align-items: center;
     padding: 20px;
     gap: 10%;
-    background-image: url(../asset/map\ back.webp);
+    background-image: url(../asset/map_back.webp);
     background-size: cover;
 }
 
