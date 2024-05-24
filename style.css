@@ -101,6 +101,7 @@ main {
 .container1{
     background-image: url(./asset/back_welcome.webp);
     background-size: cover;
+    width:100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -156,6 +157,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width:100%;
     background-image: url(./asset/back_welcome_2.webp);
     background-size: cover;
     padding:20px;
@@ -242,6 +244,7 @@ main {
 
 .container4{
     height: 120vh;
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -279,6 +282,7 @@ main {
 
 .container5{
     height: 100vh;
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
