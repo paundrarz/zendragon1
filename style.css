@@ -158,6 +158,7 @@ main {
     height: 100vh;
     background-image: url(./asset/back_welcome_2.webp);
     background-size: cover;
+    padding:20px;
 }
 
 .img-container2{
