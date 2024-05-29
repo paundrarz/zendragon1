@@ -118,9 +118,9 @@ main {
 }
 
 .h1-main{
-    color: white;
+    color:#EAB970;
     font-family: 'inknut';
-    font-size: 50px;
+    font-size: 3vw;
 }
 
 .img-main{
@@ -130,26 +130,7 @@ main {
 .h3-main{
     color: white;
     font-size: 30px;
-    padding-bottom: 20px;
-}
-
-.kotak-register{
-    border: 1px solid white;
-    width: 20%;
-    height: 7%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.a-register{
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-}
-
-.a-register:hover{
-    text-decoration: underline;
+    padding-bottom: 3vw;
 }
 
 .container2{
@@ -178,14 +159,14 @@ main {
 }
 
 .h2-page2{
-    font-size: 50px;
+    font-size: 3vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .h1-page2{
-    color: white;
-    font-size: 70px;
+    color:#EAB970;
+    font-size: 3vw;
     font-family: 'inknut';
 }
 
@@ -197,7 +178,7 @@ main {
     color: white;
     font-size: 20px;
     width: 80%;
-    padding: 20px;
+    padding: 3vw;
 }
 
 .container3{
@@ -213,9 +194,9 @@ main {
 }
 
 .h1-page3{
-    color: white;
+    color:#EAB970;
     font-family: 'inknut';
-    font-size: 50px;
+    font-size: 4vw;
 }
 
 .img-page3{
@@ -232,17 +213,20 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 2.5vw;
     text-decoration: none;
-    color: white;
+    color: black;
     border: 2px solid #EAB970;
     width: 20vw;
     height: 8vh;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .a-character:hover{
-    text-decoration: underline;
     transition: 0.5s ease-in-out;
+    background-color: black;
+    color: white;
 }
 
 .container4{
@@ -259,8 +243,9 @@ main {
 }
 
 .h1-page4{
-    color: white;
+    color:#EAB970;
     font-family: 'inknut';
+    font-size: 5vw;
 }
 
 .img-page4{
@@ -271,7 +256,7 @@ main {
 .h3-page4{
     color: white;
     text-align: center;
-    font-size: 15px;
+    font-size: 1.1vw;
     width: 30%;
     padding-bottom: 40px;
 }
@@ -307,14 +292,14 @@ main {
 }
 
 .h2-page5{
-    font-size: 50px;
+    font-size: 3vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .h1-page5{
-    color: white;
-    font-size: 70px;
+    color:#EAB970;
+    font-size: 4vw;
     font-family: 'inknut';
 }
 
@@ -324,10 +309,10 @@ main {
 
 .p-page5{
     color: white;
-    font-size: 20px;
+    font-size:1.5vw;
     width: 80%;
     padding: 20px;
-    text-align: left;
+    text-align: justify;
 }
 
 .a-map{
@@ -368,7 +353,7 @@ footer{
 }
 
 .a-footer{
-    font-size: 20px;
+    font-size: 1.4vw;
     text-decoration: none;
     color: #ffffff;
 }
@@ -381,7 +366,7 @@ footer{
     font-family: 'inknut';
     color: #EAB970;
     max-width: 90%;
-    font-size: 20px;
+    font-size: 1.7vw;
 }
 
 .container-sosmed{
@@ -461,16 +446,41 @@ footer{
     text-align: center;
     }
 
+    .h1-main{
+        font-size: 4vw;
+    }
+
+    .h3-main{
+        font-size: 3vw;
+    }
+
     .h2-page2{
-        font-size: 30px;
+        font-size: 4vw;
     }
 
     .h1-page2{
-        font-size: 30px;
+        font-size: 4vw;
+    }
+
+    .p-page2{
+        font-size: 2.7vw;
+        text-align: justify;
     }
 
     .container-text{
         width: 100%;
+    }
+
+    .h1-page3{
+        font-size: 4vw;
+    }
+
+    .h1-page4{
+        font-size: 6vw;
+    }
+
+    .h3-page4{
+        font-size: 3vw;
     }
 
     .container2{
@@ -482,11 +492,17 @@ footer{
     }
 
     .h2-page5{
-        font-size: 40px;
+        font-size: 5vw;
     }
 
     .h1-page5{
-        font-size: 30px;
+        font-size: 6vw;
+    }
+
+    .p-page5{
+        font-size: 3vw;
+        text-align: justify;
+        line-height: 3vw;
     }
 
     .container5{
@@ -497,14 +513,6 @@ footer{
         text-align: center;
     }
 
-    .h1-page3{
-        font-size: 40px;
-    }
-
-    .h1-main{
-        font-size: 40px;
-    }
-
     .h3-page4{
         font-size: 30px;
         width: 70%;
@@ -512,6 +520,11 @@ footer{
 
     .img-element{
         width: 10%;
+    }
+
+    .a-character{
+        font-size: 3vw;
+        height: 6vw;
     }
 }
 
@@ -585,7 +598,7 @@ footer{
     }
 
     .h1-main{
-        font-size: 20px;
+        font-size: 4vw;
     }
 
     .img-main{
@@ -597,26 +610,24 @@ footer{
     }
 
     .h3-main{
-        font-size: 20px;
-    }
-
-    .a-register{
-        font-size: 20px;
-    }
-
-    .kotak-register{
-        width: 40vw;
+        font-size: 4vw;
     }
 
     .h2-page2{
-        font-size: 10px;
+        font-size: 3vw;
         text-align: center;
     }
 
     .h1-page2{
-        font-size: 10px;
+        font-size: 3vw;
         width: 100%;
         text-align: center;
+    }
+
+    .p-page2{
+        font-size: 3vw;
+        line-height: 3vw;
+        text-align: justify;
     }
 
     .container2{
@@ -630,26 +641,17 @@ footer{
         align-items: center;
     }
 
-    .p-page2{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 10px;
-    }
-
     .img-container2{
         width: 20%;
     }
 
     .container3{
         height: 50vh;
-    }
-    .container3{
         justify-content: start;
     }
 
     .h1-page3{
-        font-size: 15px;
+        font-size: 5vw;
     }
 
     .container-text5{
@@ -670,11 +672,11 @@ footer{
     }
 
     .h1-page4{
-        font-size: 10px;
+        font-size: 3vw;
     }
 
     .h3-page4{
-        font-size: 10px;
+        font-size: 2vw;
         width: 40vw;
         height:7vh;
     }
@@ -710,22 +712,28 @@ footer{
     }
 
     .h2-page5{
-        font-size: 10px;
+        font-size: 5vw;
     }
 
     .h1-page5{
-        font-size: 10px;
+        font-size: 5vw;
     }
 
     .p-page5{
-        text-align: center;
-        font-size: 10px;
+        text-align: justify;
+        font-size: 3vw;
     }
 
     .container1, .container2,.container3,.container4,.container5{
         width: 100%;
         padding: 20px;
     }
+
+    .a-character{
+        font-size: 3vw;
+        height: 3.5vh;
+    }
+
     .logo-footer{
         width: 20%;
     }
