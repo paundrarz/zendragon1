@@ -158,6 +158,14 @@ main {
     display: flex;justify-content: end;align-items: center;flex-direction: column;
 }
 
+.h3-dragon h1{
+    font-size: 6vw;
+}
+
+.h3-dragon h3{
+    font-size: 1.5vw;
+}
+
 .element{
     background-position: center;
     width: 100%;
@@ -172,7 +180,7 @@ main {
 }
 
 .img-element{
-    width: 20%;
+    width: 20vw;
     position: relative;
     top: 10%;
 }
@@ -190,6 +198,9 @@ main {
     text-align: center;
     color: #EAB970;
     font-family: 'inknut';
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-bottom: 2vw;
 }
 
 .img-desc{
@@ -199,6 +210,8 @@ main {
 .h3-element{
     text-align: center;
     color: white;
+    font-size: 1.2vw;
+    line-height: 1.7vw;
 }
 
 .logo-element{
@@ -331,7 +344,7 @@ footer{
 }
 
 .a-footer{
-    font-size: 20px;
+    font-size: 1.4vw;
     text-decoration: none;
     color: #ffffff;
 }
@@ -344,7 +357,7 @@ footer{
     font-family: 'inknut';
     color: #EAB970;
     max-width: 90%;
-    font-size: 20px;
+    font-size: 1.7vw;
 }
 
 .container-sosmed{
@@ -425,6 +438,7 @@ footer{
 
     .element{
         padding: 10px;
+        gap: 2vw;
     }
 
     .grid1{
@@ -432,12 +446,21 @@ footer{
         padding: 20px;
     }
 
+    .h3-dragon h1{
+        font-size: 7vw;
+    }
+
+    .h3-dragon h3{
+        font-size: 3vw;
+    }
+
     .text-element{
         width: 100vw;
     }
 
     .h1-ourdragon{
-        font-size: 25px;
+        margin-top: 4vw;
+        font-size: 4vw;
     }
 
     .img-element{
@@ -456,13 +479,15 @@ footer{
     }
 
     .h1-element{
-        font-size: 30px;
+        font-size: 5vw;
         padding: 0;
+        line-height: 6vw;
     }
 
     .h3-element{
-        font-size: 15px;
-        max-width: 70vw;
+        font-size: 2.3vw;
+        line-height: 3vw;
+        text-align: justify;
     }
 
     .element{
@@ -503,11 +528,11 @@ footer{
     .h1-desc{
         padding-top:0px;
         padding-bottom: 0px;
-        font-size: 22px;
+        font-size: 6vw;
     }
 
     .h3-desc{
-        font-size: 14px;
+        font-size: 3vw;
     }
     
     .grid1-desc{
@@ -528,7 +553,7 @@ footer{
     }
     
     .img-desc{
-        width: 20%;
+        width: 21vw;
     }
     .container1{
         height: 100vh;
@@ -601,27 +626,39 @@ footer{
 
     .element{
         display: flex;
-        padding: 10px;
+        padding: 90px;
     }
 
     .grid1{
-        display: flex;
         flex-direction: column;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
     }
 
     .text-element{
-        width: 80vw;
+        width: 100%;
+    }
+
+    .h3-dragon h1{
+        font-size: 7vw;
+    }
+
+    .h3-dragon h3{
+        font-size: 3vw;
+        line-height: 3vw;
     }
 
     .h1-ourdragon{
-        font-size: 15px;
+        font-size: 3vw;
+        margin-top: 20px;
     }
 
     .img-element{
         width: 50vw;
         /* max-width/: 20vw; */
-        height: 50vh;
-        align-items: center;
+        top: 0;
     }
     .img-element-logo{
         width: 12vw;
@@ -633,12 +670,16 @@ footer{
     }
 
     .h1-element{
-        font-size: 16.5px;
+        font-size: 5vw;
         padding: 0;
+        margin-bottom: 20px;
+        line-height: 5vw;
     }
 
     .h3-element{
-        font-size: 12px;
+        text-align: justify;
+        font-size: 2.8vw;
+        line-height: 3vw;
     }
 
     .element{
@@ -651,12 +692,11 @@ footer{
         align-items: center;
     }
 
-    .h1-judul{
-        font-size: 20px;
+    .h3-dragon h1{
+        font-size: 7vw;
     }
-    .h3-dragon{
-        font-size: 13px;
-    }
+
+
 
     .scroll-img{
         width: 30%;
@@ -700,7 +740,7 @@ footer{
     }
     
     .img-desc{
-        width: 40%;
+        width: 30vw;
     }
 
     .container1{
