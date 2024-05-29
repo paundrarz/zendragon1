@@ -159,10 +159,11 @@ main {
 }
 
 .h3-dragon h1{
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 .h3-dragon h3{
+    width: 70vw;
     font-size: 1.5vw;
 }
 
@@ -198,13 +199,13 @@ main {
     text-align: center;
     color: #EAB970;
     font-family: 'inknut';
-    font-size: 3vw;
+    font-size: 2vw;
     line-height: 4vw;
     margin-bottom: 2vw;
 }
 
 .img-desc{
-    width: 10%;
+    width: 10vw;
 }
 
 .h3-element{
@@ -218,7 +219,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     margin: 20px;
     gap: 40px;
 }
@@ -375,6 +375,7 @@ footer{
 .img-sosmed{
     width: 6%;
 }
+
 
 
 @media screen and (min-width:540px) and (max-width: 1024px) {
