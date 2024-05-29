@@ -10,7 +10,9 @@ box-sizing: border-box;
 }
 
 body {
-background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
 }
 
 nav {
@@ -98,20 +100,24 @@ margin: 3vw;
 main {
     background-image: url(../asset/char.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-color: black;
     padding-top: 2rem;
-    background-position: -10px 1px;
+    background-position: 0px 1px;
+}
+main img{
+    display: block;
+    position: relative;
 }
 
 .grid-besar{
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 80vh;
+    height: 50vw;
     width: 100%;
     margin-bottom: 1rem;
     padding: 25px;
+    align-items: center;
 }
 
 .img-char{
@@ -173,6 +179,7 @@ cursor: pointer;
 .h1-desc{
     padding-top:30px;
     padding-bottom: 20px;
+    font-size: 3vw;
 }
 
 .grid1{
@@ -196,12 +203,16 @@ cursor: pointer;
 .h1-desc{
     color: #EAB970;
     font-family: 'inknut';
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
 
 .h3-desc{
     color: white;
     font-family: 'inknut';
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
     word-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.3vw;
 }
 
 .img-char-desc{
@@ -229,12 +240,11 @@ cursor: pointer;
 }
 
 #desc2{
-    background-image: url(../asset/oliver-beck-int.jpg);
+    background-image: url(../asset/ol.webp);
     /* background-color: black; */
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #desc1{
     background-image: url(../asset/huasen-zhang-553.jpg);
     background-repeat: no-repeat;
@@ -249,7 +259,9 @@ cursor: pointer;
 img{
     -webkit-user-drag: none;
 }
-
+.grid2 img{
+    max-width: 50vw;
+}
 footer{
     background-color: #092038;
     display: flex;
@@ -257,6 +269,10 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    /*  */
+    /* position: absolute;
+    width: 100%;
+    bottom: 0; */
 }
 
 .ul-footer{
@@ -270,13 +286,15 @@ footer{
 }
 
 .a-footer{
-    font-size: 20px;
+    font-size: 1.25vw;
     text-decoration: none;
     color: #ffffff;
+    font-family: 'inknut';
 }
 
 .a-footer:hover{
     text-decoration: underline;
+    color: #EAB970;
 }
 
 .h1-footer{
@@ -365,19 +383,34 @@ footer{
     }
 
     .grid-desc{
-        display: block;
+        display: flex;
+        flex-direction: column;
         /* background-color: rgb(255, 0, 0); */
         padding:10px;
+        height: 90vh;
+        max-height: 107vh;
+        justify-content: center;
+        align-items: center;
     }
 
     .h1-desc{
         padding-top:30px;
         padding-bottom: 20px;
+        font-size: 4vw;
+    }
+
+    .h3-desc{
+        padding-left: 10vw;
+        padding-right: 10vw;
+        font-size: 2.2vw;
     }
     
     .grid1{
         /* background-color: #af8a54; */
         padding: 0;
+    }
+    .grid1 img{
+        width: 17vw;
     }
 
     .grid2{
@@ -387,7 +420,7 @@ footer{
     }
 
     .img-char-desc{
-        width: 25vw;
+        width: 40vw;
         padding-top: 0;
     }
 
@@ -544,7 +577,7 @@ footer{
     }
     
     .a-footer{
-        font-size: 15px;
+        font-size: 2vw;
         text-decoration: none;
         color: #ffffff;
     }
