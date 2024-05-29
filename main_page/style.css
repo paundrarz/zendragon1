@@ -188,8 +188,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    height: 100vh;
+    padding: 50px;
+    height: 110vh;
     width: 100%;
 }
 
