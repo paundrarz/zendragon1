@@ -703,7 +703,7 @@ footer{
     }
 
     .container3{
-        height: 50vh;
+        height: 60vh;
         justify-content: start;
     }
 
@@ -760,12 +760,18 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
-        height: 50vh;
+        /* gap: 1rem; */
+        height: 70vh;
+    }
+
+    .map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .img-map{
-        width: 30%;
+        width: 40%;
     }
 
     .h2-page5{
