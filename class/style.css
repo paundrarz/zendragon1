@@ -731,7 +731,8 @@ footer{
     }
 
     .img-element{
-        width: 50vw;
+        width: auto;
+        max-height: 45vw;
         /* max-width/: 20vw; */
         top: 0;
     }
@@ -770,8 +771,6 @@ footer{
     .h3-dragon h1{
         font-size: 7vw;
     }
-
-
 
     .scroll-img{
         width: 30%;
