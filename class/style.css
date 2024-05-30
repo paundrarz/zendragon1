@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0rem 1rem;
-    height: 20 dvh;
+    height: 20dvh;
     z-index: 100;
   }
   
@@ -160,9 +160,13 @@ main {
 
 .h3-dragon h1{
     color: #EAB970;
-    text-shadow: 2px 5px 3px black;
     font-size: 4vw;
     font-family: 'inknut';
+    background: -webkit-linear-gradient(#eaeaea, #d77a1d);
+    height: fit-content;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
 }
 
 .h3-dragon h3{
@@ -452,12 +456,16 @@ footer{
         padding: 20px;
     }
 
+    .h3-dragon{
+        line-height: 12vw;
+    }
+
     .h3-dragon h1{
-        font-size: 7vw;
+        font-size: 5vw;
     }
 
     .h3-dragon h3{
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .text-element{
@@ -768,7 +776,7 @@ footer{
     }
     
     .a-footer{
-        font-size: 15px;
+        font-size: 10px;
         text-decoration: none;
         color: #ffffff;
     }
@@ -780,7 +788,7 @@ footer{
     .h1-footer{
         font-family: 'inknut';
         color: #EAB970;
-        font-size: 15px;
+        font-size: 10px;
     }
     
     .container-sosmed{

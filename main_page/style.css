@@ -143,22 +143,33 @@ main {
     width: 100%;
     background-image: url(../asset/back_welcome_2.webp);
     background-size: cover;
-    padding:20px;
 }
 
 .img-container2{
-    width: 100%;
+    width: 80%;
+}
+
+.container-img{
+    width: 50vw;
+    margin-left: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-text{
+    margin-right: 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: end;
     text-align: right;
+    width: 70vw;
 }
 
 .h2-page2{
+    line-height: 0.2vw;
+    text-align: right;
     font-size: 3vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -178,7 +189,8 @@ main {
     color: white;
     font-size: 20px;
     width: 80%;
-    padding: 3vw;
+    padding-top: 1.5vw;
+    line-height: 1.7vw;
 }
 
 .container3{
@@ -188,8 +200,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
-    height: 110vh;
+    height: 135vh;
     width: 100%;
 }
 
@@ -213,20 +224,21 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-decoration: none;
     color: black;
     border: 2px solid #EAB970;
     width: 20vw;
     height: 8vh;
-    background-color: white;
-    border-radius: 10px;
+    color: white;
+    /* border-radius: 10px; */
 }
 
 .a-character:hover{
     transition: 0.5s ease-in-out;
-    background-color: black;
-    color: white;
+    background-color:#EAB970;
+    color:black;
+    border: 2px white solid;
 }
 
 .container4{
@@ -525,6 +537,51 @@ footer{
     .a-character{
         font-size: 3vw;
         height: 6vw;
+    }
+
+    .container3{
+        height: 60vh;
+    }
+
+    .container2{
+        flex-direction: column;
+        line-height: 10vw;
+        margin-right: 0;
+    }
+
+    .container-img{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .img-container2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-text{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .h2-page2{
+        text-align: center;
+    }
+
+    .h1-page2{
+        text-align: center;
+    }
+
+    .p-page2{
+        text-align: center;
+        line-height: 3vw;
     }
 }
 

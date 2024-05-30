@@ -1,118 +1,114 @@
 @font-face{
     font-family: 'inknut';
     src: url(../asset/InknutAntiqua-Bold.ttf)format('truetype');
-}
-*,
-html {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-}
-
-body {
-    width: 100vw;
-    height: 100vh;
+  }
+  *,
+  html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
     background-color: #000000;
-}
-
-nav {
-position: absolute;
-top: 0;
-width: 100%;
-/* background-color: #092038; */
-display: flex;
-justify-content: space-between;
-padding: 0rem 1rem;
-height: 20 dvh;
-z-index: 100;
-}
-
-nav:hover{
-background-color: #092038;
-transition: all 0.5s ease;
-}
-nav ul {
-display: flex;
-align-items: center;
-gap: 2rem;
-list-style: none;
-}
-
-nav div img {
-width: 80px;
-justify-content: center;
-}
-
-nav ul li a {
-text-decoration: none;
-font-family: 'inknut',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-color: #ffffff;
-font-weight: 500;
-padding: 8px 0;
-transition: all;
-transition-duration: 300ms;
-}
-nav ul #login:hover{
-border: 3px solid #af8a54;
-border-spacing: 30px;
-border-radius: 20px;
-background-color: rgb(255, 255, 255);
-width: 100px;
-height: 40px;
-color: #cc7c05;
-transition: all;
-}
-
-nav ul #sign-up a{
-color: #092038;
-}
-nav ul #sign-up {
-border: 1.5px solid #ffffff;
-border-radius: 20px;
-background-color: #EAB970;
-width: 100px;
-height: 40px;
-align-content: center;
-text-align: center;
-}
-
-nav ul #sign-up:hover{
-border: 3px solid #ffffff;
-border-spacing: 30px;
-border-radius: 20px;
-background-color: #C69956;
-width: 100px;
-height: 40px;
-transition: all;
-}
-
-nav ul li a:hover {
-color: #EAB970;
-border-bottom: 1px solid #EAB970;
-}
-
-.menu-icon {
-width: 40px;
-display: none;
-margin: 3vw;
-}
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* background-color: #092038; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    height: 20 dvh;
+    z-index: 100;
+  }
+  
+  nav:hover{
+    background-color: #092038;
+    transition: all 0.5s ease;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  nav div img {
+    width: 80px;
+    justify-content: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-family: 'inknut',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+  }
+  nav ul #login:hover{
+    border: 3px solid #af8a54;
+    border-spacing: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    color: #cc7c05;
+    transition: all;
+  }
+  
+  nav ul #sign-up a{
+    color: #092038;
+  }
+  nav ul #sign-up {
+    border: 1.5px solid #ffffff;
+    border-radius: 20px;
+    background-color: #EAB970;
+    width: 100px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+  }
+  
+  nav ul #sign-up:hover{
+    border: 3px solid #ffffff;
+    border-spacing: 30px;
+    border-radius: 20px;
+    background-color: #C69956;
+    width: 100px;
+    height: 40px;
+    transition: all;
+  }
+  
+  nav ul li a:hover {
+    color: #EAB970;
+    border-bottom: 1px solid #EAB970;
+  }
+  
+  .menu-icon {
+    width: 40px;
+    display: none;
+    margin: 3vw;
+  }
 
 main {
-    background-image: url(../asset/char.webp);
-    background-repeat: no-repeat;
-    background-size: 100%;
     background-color: black;
     padding-top: 7rem;
     background-position: 0px 1px;
-}
-main img{
-    display: block;
-    position: relative;
+    background-image: url(../asset/char.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .grid-besar{
     /* border: 2px white solid; */
     height: 100vh;
+    /* background-color: white; */
+    width: 100vw;
 }
 
 .char2{
@@ -121,6 +117,7 @@ main img{
     width: 100%;
     padding: 25px;
     align-items: center;
+    justify-content: center;
 }
 
 .img-char{
@@ -137,9 +134,6 @@ main img{
 }
 
 .h1-judul{
-    position: relative;
-    top: -50px;
-    width: 100%;
     font-size: 3vw;
 }
 
@@ -152,7 +146,6 @@ text-shadow: 0px 0px 10px rgba(234, 185, 112, 0.32),
 12px 12px 148px rgba(234, 185, 112, 0.09),
 16px 16px 202px rgba(234, 185, 112, 0.05);
 cursor: pointer;
-
 }
 
 .char:hover{
@@ -175,7 +168,7 @@ cursor: pointer;
     display: flex;
     width: 100%;
     /* grid-template-columns: 1.5fr 1fr; */
-    padding: 20px;
+    padding: 20px; 
     max-width: 100% ;
     height: 100vh;
 }
@@ -382,6 +375,21 @@ footer{
 
     main{
         padding-top: 7rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .grid-besar{
+        height: 73.5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .char2{
+        justify-content: center;
+        align-items: center;
     }
 
     .grid-desc{
@@ -502,7 +510,8 @@ footer{
 
     main{
         padding-top: 7rem;
-        background-repeat: repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .h1-judul{
@@ -511,8 +520,10 @@ footer{
     }
 
     .grid-besar{
-        height: 45vh;
+        height: 60vh;
         max-height: 100vh;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -580,7 +591,7 @@ footer{
     }
     
     .a-footer{
-        font-size: 2vw;
+        font-size: 10px;
         text-decoration: none;
         color: #ffffff;
     }
@@ -592,7 +603,7 @@ footer{
     .h1-footer{
         font-family: 'inknut';
         color: #EAB970;
-        font-size: 15px;
+        font-size: 10px;
     }
     
     .container-sosmed{

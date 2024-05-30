@@ -1,5 +1,6 @@
 function showElement() {
     var element = document.querySelector('.element');
+    var desc0 = document.getElementById('desc0'); // Ambil elemen desc0
     var dragon = document.querySelectorAll('.grid-desc');
     var computedStyle = window.getComputedStyle(element);
     var displayStyle = computedStyle.getPropertyValue('display');
@@ -12,6 +13,8 @@ function showElement() {
     } else {
         element.style.display = 'flex';
         element.scrollIntoView({ behavior: 'smooth' });
+        desc0.style.display = 'flex'; // Tampilkan desc0
+        desc0.scrollIntoView({ behavior: 'smooth' }); // Gulir ke desc0
     }
 }
 
