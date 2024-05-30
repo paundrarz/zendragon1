@@ -836,4 +836,17 @@ footer{
     footer{
         width: 100%;
     }
+
+    .container-img{
+        margin-left: 0;
+        height: 20vw;
+    }
+
+    .img-container2{
+        width: 14vw;
+    }
+
+    .container-text{
+        margin-right: 0;
+    }
 }
