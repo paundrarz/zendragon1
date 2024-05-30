@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <nav>
         <div class="logo">
           <img src="../asset/logo_navbar.svg" alt="Zen-Dragon-logo" />
@@ -19,7 +20,7 @@
             <a href="../main_page/main_page.html">Home</a>
           </li>
           <li>
-            <a href="../class/dragon.html">Class</a>
+            <a href="#">Class</a>
           </li>
           <li>
             <a href="../character/index.html">Character</a>
@@ -38,42 +39,46 @@
         </ul>
       </nav>
     <main>
-        <div class="grid-besar">
-            <h1 class="h1-judul">Select Your Master</h1>
-            <div class="char2">
-                <div class="char" id="maskparent" onclick="showDescription(0)">
-                    <img src="../asset/char1.svg" id="mask" alt="" class="img-char">
-                </div>
-                <div class="char" id="maskparent" onclick="showDescription(1)">
-                    <img src="../asset/char2.svg" id="mask" alt="" class="img-char">
-                </div>
-                <div class="char" id="maskparent" onclick="showDescription(2)">
-                    <img src="../asset/char3.svg" id="mask" alt="" class="img-char">
-                </div>
-                <div class="char" id="maskparent" onclick="showDescription(3)">
-                    <img src="../asset/char4.svg" id="mask" alt="" class="img-char">
+        <div class="container">
+            <div class="bg-img">
+                <img src="../asset/char.webp">
+            </div>
+            <div class="grid-besar">
+                <h1 class="h1-judul">Select Your Master</h1>
+                <div class="char2">
+                    <div class="char" id="maskparent" onclick="showDescription(0)">
+                        <img src="../asset/char1.svg" id="mask" alt="" class="img-char">
+                    </div>
+                    <div class="char" id="maskparent" onclick="showDescription(1)">
+                        <img src="../asset/char2.svg" id="mask" alt="" class="img-char">
+                    </div>
+                    <div class="char" id="maskparent" onclick="showDescription(2)">
+                        <img src="../asset/char3.svg" id="mask" alt="" class="img-char">
+                    </div>
+                    <div class="char" id="maskparent" onclick="showDescription(3)">
+                        <img src="../asset/char4.svg" id="mask" alt="" class="img-char">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="grid-desc" id="desc0" style="display: none;">
-            <div class="grid1">
+            <div class="grid-desc" id="desc0" style="display: none;">
+                <div class="grid1">
                 <img src="../asset/Warrior.webp" alt="" class="img-desc">
                 <h1 class="h1-desc">Grim Stonecleaver</h1>
                 <h3 class="h3-desc">As a skilled and well-trained axe wielder, Grim possesses extraordinary physical strength and mastery over various battle techniques using his axe. He also boasts formidable resilience, allowing him to endure in high-pressure combat situations.</h2>
                 </div>
-            <div class="grid2">
-                <img src="../asset/warriorb.webp" alt="" class="img-char-desc">
-            </div>
-        </div>
-        <div class="grid-desc" id="desc1" style="display: none;">
-            <div class="grid1">
-                <img src="../asset/Mage.webp" alt="" class="img-desc">
-                <h1 class="h1-desc">Selena Frostwind</h1>
-                <h3 class="h3-desc">As a skilled sorceress, Selena has access to various types of magic, ranging from elemental spells to illusion magic. She possesses exceptional proficiency in manipulating magical energies and harnessing the power of nature.</h2>
+                <div class="grid2">
+                    <img src="../asset/warriorb.webp" alt="" class="img-char-desc">
                 </div>
-            <div class="grid2">
-                <img src="../asset/elrf.webp" alt="" class="img-char-desc" id="char">
             </div>
+            <div class="grid-desc" id="desc1" style="display: none;">
+                <div class="grid1">
+                    <img src="../asset/Mage.webp" alt="" class="img-desc">
+                    <h1 class="h1-desc">Selena Frostwind</h1>
+                    <h3 class="h3-desc">As a skilled sorceress, Selena has access to various types of magic, ranging from elemental spells to illusion magic. She possesses exceptional proficiency in manipulating magical energies and harnessing the power of nature.</h2>
+                    </div>
+                    <div class="grid2">
+                        <img src="../asset/elrf.webp" alt="" class="img-char-desc" id="char">
+                    </div>
         </div>
         <div class="grid-desc" id="desc2" style="display: none;">
             <div class="grid1">
@@ -81,33 +86,34 @@
                 <h1 class="h1-desc">Lyra Stormblade</h1>
                 <h3 class="h3-desc">As a proficient swordswoman, Lyra masters various martial techniques and battle strategies. Her speed and precision in movement make her unmatched in one-on-one combat.</h2>
                 </div>
-            <div class="grid2">
-                <img src="../asset/guardianb.webp" alt="" class="img-char-desc">
-            </div>
-        </div>
-        <div class="grid-desc" id="desc3" style="display:none;">
-            <div class="grid1">
-                <img src="../asset/Archer.webp" alt="" class="img-desc">
-                <h1 class="h1-desc">Thalgar Ironshield</h1>
-                <h3 class="h3-desc">As a well-trained knight, Thalgar masters the art of martial combat and battle tactics. He also possesses extraordinary physical strength and formidable endurance.</h2>
+                <div class="grid2">
+                    <img src="../asset/guardianb.webp" alt="" class="img-char-desc">
                 </div>
-            <div class="grid2">
-                <img src="../asset/artcher.webp" alt="" class="img-char-desc">
+            </div>
+            <div class="grid-desc" id="desc3" style="display:none;">
+                <div class="grid1">
+                    <img src="../asset/Archer.webp" alt="" class="img-desc">
+                    <h1 class="h1-desc">Thalgar Ironshield</h1>
+                    <h3 class="h3-desc">As a well-trained knight, Thalgar masters the art of martial combat and battle tactics. He also possesses extraordinary physical strength and formidable endurance.</h2>
+                </div>
+                <div class="grid2">
+                    <img src="../asset/artcher.webp" alt="" class="img-char-desc">
+                </div>
             </div>
         </div>
-    </main>
-    <footer>
-        <img src="../asset/logo_footer.svg" alt="">
-        <ul class="ul-footer">
-            <li class="li-footer">
-                <a href="../main_page/main_page.html" class="a-footer">Home</a>
-            </li>
-            <li class="li-footer">
-                <a href="../class/dragon.html" class="a-footer">Dragon</a>
-            </li>
-            <li class="li-footer">
-                <a href="../character/index.html" class="a-footer">Character</a>
-            </li>
+        </main>
+        <footer>
+            <img src="../asset/logo_footer.svg" alt="">
+            <ul class="ul-footer">
+                <li class="li-footer">
+                    <a href="../main_page/main_page.html" class="a-footer">Home</a>
+                </li>
+                <li class="li-footer">
+                    <a href="../class/dragon.html" class="a-footer">Dragon</a>
+                </li>
+                <li class="li-footer">
+                    <a href="../character/index.html" class="a-footer">Character</a>
+                </li>
             <li class="li-footer">
                 <a href="../isle/index.html" class="a-footer">Isle of Berk</a>
             </li>

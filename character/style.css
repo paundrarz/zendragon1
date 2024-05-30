@@ -63,8 +63,9 @@
   
   nav ul #sign-up a{
     color: #092038;
-  }
-  nav ul #sign-up {
+    padding: 0;
+}
+nav ul #sign-up {
     border: 1.5px solid #ffffff;
     border-radius: 20px;
     background-color: #EAB970;
@@ -94,21 +95,37 @@
     display: none;
     margin: 3vw;
   }
+main{
+    position: relative;
+    display: block;
+}
 
-main {
-    background-color: black;
-    padding-top: 7rem;
-    background-position: 0px 1px;
-    background-image: url(../asset/char.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+.container{
+    top: 0;
+    /* z-index: -100; */
+    display: block;
+    position: relative;
+}
+
+.bg-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.bg-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .grid-besar{
     /* border: 2px white solid; */
-    height: 100vh;
+    height: 100%;
     /* background-color: white; */
-    width: 100vw;
+    width: 100%;
+    position: relative;
 }
 
 .char2{
@@ -137,17 +154,6 @@ main {
     font-size: 3vw;
 }
 
-.h1-judul:hover{
-text-shadow: 0px 0px 10px rgba(234, 185, 112, 0.32),
-1px 1px 16px rgba(234, 185, 112, 0.27),
-3px 3px 37px rgba(234, 185, 112, 0.23),
-5px 5px 66px rgba(234, 185, 112, 0.18),
-8px 8px 103px rgba(234, 185, 112, 0.14),
-12px 12px 148px rgba(234, 185, 112, 0.09),
-16px 16px 202px rgba(234, 185, 112, 0.05);
-cursor: pointer;
-}
-
 .char:hover{
     transform: scale(1.07);
     transition: 0.2s ease-in-out;
@@ -168,9 +174,9 @@ cursor: pointer;
     display: flex;
     width: 100%;
     /* grid-template-columns: 1.5fr 1fr; */
-    padding: 20px;  
+    padding: 20px; 
     max-width: 100% ;
-    height: 100vh;
+    height: 100%;
 }
 
 .h1-desc{
@@ -192,9 +198,11 @@ cursor: pointer;
     scroll-behavior: smooth;
 }
 .h1-judul{
+    padding-top: 10% ;
     font-family: 'inknut';
     text-align: center;
-    color: #EAB970;
+    color: #ffe389;
+    text-shadow: 0 0 40px #c97c08;
 }
 
 .h1-desc{
@@ -311,10 +319,6 @@ footer{
     width: 6%;
 }
 
-.img-desc{
-    width: 1vw;
-}
-
 @media screen and (min-width:540px) and (max-width: 1024px) {
     nav {
         flex-wrap: wrap;
@@ -373,23 +377,24 @@ footer{
         text-align: center;
     }
 
-    main{
-        padding-top: 7rem;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
 
     .grid-besar{
-        height: 73.5vh;
+        height: fit-content;
+    }
+    
+    .char2{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .char2{
-        justify-content: center;
-        align-items: center;
+    .img-desc{
+        width: 2vw;
+    }
+
+    main {
+        height: 100%;
     }
 
     .grid-desc{
@@ -397,8 +402,8 @@ footer{
         flex-direction: column;
         /* background-color: rgb(255, 0, 0); */
         padding:10px;
-        height: 90vh;
-        max-height: 107vh;
+        height: 100%;
+        /* max-height: 107vh; */
         justify-content: center;
         align-items: center;
     }
@@ -508,32 +513,34 @@ footer{
       text-align: center;
     }
 
-    main{
-        padding-top: 7rem;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
 
     .h1-judul{
-        padding-top: 2rem;
+        padding-top: 20%;
         font-size: 20px;
     }
 
+    .char2{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+
     .grid-besar{
-        height: 60vh;
-        max-height: 100vh;
+        height: fit-content;
+        /* max-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
     }
     .grid-desc{
         display: flex;
         flex-direction: column;
-        /* background-color: rgb(255, 0, 0); */
         padding:10px;
-        height: 90vh;
-        max-height: 107vh;
+        height: fit-content;
+        max-height: fit-content;
         justify-content: center;
         align-items: center;
     }
@@ -564,8 +571,12 @@ footer{
         align-items: center;
     }
 
+    .img-char{
+        width: 25vw;
+    }
+
     .img-char-desc{
-        width: 40vw;
+        width: 50vw;
         max-width: 60vw;
         padding-top: 0;
     }
