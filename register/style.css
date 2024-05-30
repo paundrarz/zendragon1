@@ -293,10 +293,10 @@ footer{
     }
 
     .container{
-        width: 70vw;
-        height: 75vh;
-        max-width: 80vw;
-        max-height: 68vh;
+        width: auto;
+        height: auto;
+        max-width: 75vw;
+        max-height: 75vh;
         margin: 83px;
     }
 
@@ -326,6 +326,63 @@ footer{
     h2{
         padding-bottom: 20px;
         color: #EAB970;
+    }
+
+    .logo-footer{
+        width: 14vw;
+    }
+
+    .ul-footer{
+        display: flex;
+    }
+    
+    .li-footer{
+        list-style: none;
+    }
+    
+    .a-footer{
+        font-size: 4.1vw;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .a-footer:hover{
+        text-decoration: underline;
+    }
+    
+    .h1-footer{
+        font-family: 'inknut';
+        color: #EAB970;
+        font-size: 3vw;
+    }
+    
+    .container-sosmed{
+        display: flex;
+        gap: 1rem;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-sosmed{
+        width: 6vw;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .container-img{
+        margin-left: 0;
+        height: 20vw;
+    }
+
+    .img-container2{
+        width: 14vw;
+    }
+
+    .container-text{
+        margin-right: 0;
     }
 }
 
@@ -397,10 +454,10 @@ footer{
     }
 
     .container{
-        width: 70vw;
-        height: 70.1vh;
-        max-width: 80vw;
-        max-height: 80vh;
+        width: auto;
+        height: auto;
+        max-width: 70vw;
+        max-height: 75vh;
         margin: 75px;
     }
 
@@ -424,13 +481,14 @@ footer{
     }
 
     h2{
-        padding-bottom: 20px;
         color: #EAB970;
     }
+    .logo-footer{
+        width: 14vw;
+    }
+
     .ul-footer{
         display: flex;
-        gap: 2rem;
-        padding: 10px;
     }
     
     .li-footer{
@@ -438,7 +496,7 @@ footer{
     }
     
     .a-footer{
-        font-size: 20px;
+        font-size: 4.1vw;
         text-decoration: none;
         color: #ffffff;
     }
@@ -450,7 +508,7 @@ footer{
     .h1-footer{
         font-family: 'inknut';
         color: #EAB970;
-        font-size: 20px;
+        font-size: 3vw;
     }
     
     .container-sosmed{
@@ -462,6 +520,23 @@ footer{
     }
 
     .img-sosmed{
-        width: 10%;
+        width: 6vw;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .container-img{
+        margin-left: 0;
+        height: 20vw;
+    }
+
+    .img-container2{
+        width: 14vw;
+    }
+
+    .container-text{
+        margin-right: 0;
     }
 }

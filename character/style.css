@@ -445,6 +445,63 @@ footer{
         border-radius: none;
     }
 
+    .logo-footer{
+        width: 14vw;
+    }
+
+    .ul-footer{
+        display: flex;
+    }
+    
+    .li-footer{
+        list-style: none;
+    }
+    
+    .a-footer{
+        font-size: 4.1vw;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .a-footer:hover{
+        text-decoration: underline;
+    }
+    
+    .h1-footer{
+        font-family: 'inknut';
+        color: #EAB970;
+        font-size: 3vw;
+    }
+    
+    .container-sosmed{
+        display: flex;
+        gap: 1rem;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-sosmed{
+        width: 6vw;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .container-img{
+        margin-left: 0;
+        height: 20vw;
+    }
+
+    .img-container2{
+        width: 14vw;
+    }
+
+    .container-text{
+        margin-right: 0;
+    }
+
 }
 
 
@@ -588,13 +645,11 @@ footer{
     }
 
     .logo-footer{
-        width: 20%;
+        width: 14vw;
     }
 
     .ul-footer{
         display: flex;
-        gap: 2rem;
-        padding: 10px;
     }
     
     .li-footer{
@@ -602,7 +657,7 @@ footer{
     }
     
     .a-footer{
-        font-size: 10px;
+        font-size: 4.1vw;
         text-decoration: none;
         color: #ffffff;
     }
@@ -614,7 +669,7 @@ footer{
     .h1-footer{
         font-family: 'inknut';
         color: #EAB970;
-        font-size: 10px;
+        font-size: 3vw;
     }
     
     .container-sosmed{
@@ -626,11 +681,24 @@ footer{
     }
 
     .img-sosmed{
-        width: 10%;
+        width: 6vw;
     }
 
     footer{
         width: 100%;
+    }
+
+    .container-img{
+        margin-left: 0;
+        height: 20vw;
+    }
+
+    .img-container2{
+        width: 14vw;
+    }
+
+    .container-text{
+        margin-right: 0;
     }
 
 }
