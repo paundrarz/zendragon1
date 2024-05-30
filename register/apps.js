@@ -39,8 +39,14 @@ form.addEventListener("submit",function(e){
         errorText.innerText="Last name must be at least 8 character long"
         return;
     }
-    else if(!email.value.endsWith("@ZenDragon.com")){
-        errorText.innerText="email must be ended with @ZenDragon.com"
+    if (email.value.trim() === "") {
+        errorText.innerText = "Email must be filled.";
+        return;
+    } else if (email.value.indexOf(' ') !== -1) {
+        errorText.innerText = "Email cannot contain spaces.";
+        return;
+    } else if (!email.value.endsWith("@zendragon.ac.id")) {
+        errorText.innerText = "Email must end with '@zendragon.ac.id'.";
         return;
     }
     else if(gender.value==""||gender.value==undefined){

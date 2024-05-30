@@ -113,10 +113,6 @@ main {
     height: 100vh;
     /* border: 12px solid black; */
 }
-.container1 h1{
-    color: #EAB970;
-}
-
 
 .scroll{
     /* border: solid yellow; */
@@ -155,16 +151,25 @@ main {
     color: white;
     /* border: solid green; */
     height: 45vh;
-    display: flex;justify-content: end;align-items: center;flex-direction: column;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    line-height: 7vw;
 }
 
 .h3-dragon h1{
+    color: #EAB970;
+    text-shadow: 2px 5px 3px black;
     font-size: 4vw;
+    font-family: 'inknut';
 }
 
 .h3-dragon h3{
+    line-height: 3vw;
+    font-family: 'inknut';
     width: 70vw;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 .element{
